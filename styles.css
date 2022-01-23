@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: black;
+}
+
+.nav-title{
+    color: rgb(219, 120, 28);
+    margin-left: 200px;
+    font-size: 24px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.nav-links:nth-child(2){
+    margin-right: 200px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+a:hover{
+    color: rgb(219, 120, 28);
+}
+
+@media screen and (max-width: 825px){
+    .nav-title{
+        margin-left: 100px;
+    }
+
+    .nav-links:nth-child(2){
+        margin-right: 100px;
+    }
+}
+
+@media screen and (max-width: 605px){
+    .nav-title{
+        margin-left: 50px;
+        font-size: 20px;
+    }
+
+    .nav-links{
+        width: 150px;
+    }
+
+    .nav-links:nth-child(2){
+        margin-right: 50px;
+    }
+    a{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 281px){
+    .nav-title{
+        margin-left: 25px;
+        font-size: 15px;
+    }
+
+    .nav-links{
+        width: 150px;
+    }
+
+    .nav-links:nth-child(2){
+        margin-right: 25px;
+    }
+    a{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .nav-title{
+        margin-left: 30px;
+    }
+}
+
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: column;
+    padding-top: 17rem;
+}
+
+.main-title{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    border-radius: 25px;
+}
+
+.btn{
+    margin-top: 20px;
+    border: 2px solid black;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    border-radius: 25px;
+    font-size: 20px;
+    padding: 10px 20px;
+    transition: 0.25s;
+}
+
+.btn:hover{
+    background-color: rgb(235, 170, 110);
+}
+
+.clr{
+    color:rgb(255, 255, 255);
+}
+
+
+
+
+
+
+@media screen and (max-width:1025px){
+    main{
+        padding-top: 10rem;
+    }
+}
+
+@media screen and (max-width: 281px){
+    .main-title{
+        font-size: 20px;
+        text-align: center;
+    }
+}

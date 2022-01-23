@@ -1,4 +1,4 @@
-# Color-Flipper
+# Color-Flipper ![](https://img.shields.io/badge/color--flipper-v1.0.0--stable-blue)
 
 Hello, this is my first project in web development. I built this project to write code more indenpendently in Javascript.
 In life there is moments when you can't decide which color you should use, so you can actually use my color-flipper and randomly choose any color :)

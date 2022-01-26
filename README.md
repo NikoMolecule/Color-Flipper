@@ -7,7 +7,7 @@ In life there is moments when you can't decide which color you should use, so yo
 
 ###### What my application does?
 
-My project generates randomly by using Math function to get random Color
+My project generates random Colors by Math's Random Method
 
 ###### Technologies that i used:
 
